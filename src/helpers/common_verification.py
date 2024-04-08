@@ -1,4 +1,4 @@
-def verfiy_http_status_code(response_data, expect_data):
+def verify_http_status_code(response_data, expect_data):
     assert response_data.status_code == expect_data, "Failed ER!=AR"
 
 
