@@ -53,7 +53,6 @@ class TestCRUDBooking(object):
         verify_response_key(key=response.json()["firstname"], expected_data="Kalyani")
         verify_response_key(key=response.json()["lastname"], expected_data="Potu")
 
-
     @allure.title("Test CRUD operation Delete(DELETE)")
     @allure.description("Verify booking gets deleted with the booking ID and Token.")
     def test_delete_booking_id_token(self, create_token, get_booking):
