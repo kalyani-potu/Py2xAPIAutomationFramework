@@ -42,6 +42,11 @@ def payload_create_token():
     }
     return payload
 
+def payload_patch_booking():
+    payload = {
+        "firstname": "Drithi"
+    }
+    return payload
 
 
 # def payload_create_booking_data_excel():

@@ -1,11 +1,13 @@
-# class or fucntions
+# class or functions
 import json
 import requests
 
 
-def get_request(url, auth):
-    response = requests.get(url=url, auth=auth)
-    return response.json()
+def get_request(url, auth, in_json):
+    get_response = requests.get(url=url, auth=auth)
+    if in_json is True:
+        return get_response.json()
+    return get_response
 
 
 def post_request(url,auth,headers,payload,in_json):
