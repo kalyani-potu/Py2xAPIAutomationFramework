@@ -41,7 +41,7 @@ Hybrid Custom Framework to Test the REST APIs
 ### To work wit JSON Schema
 ```pip install jsonschema```
 
-How to run via Jenkins(CI/CD)
+### How to run via Jenkins(CI/CD)
 ![Screenshot 2024-04-08 at 7 55 21 AM](https://github.com/PramodDutta/Py2xAPIAutomationFramework/assets/1409610/f6901407-910b-4ea2-a329-0a4433f7e240)
 
 1. Jenkins Run Process
