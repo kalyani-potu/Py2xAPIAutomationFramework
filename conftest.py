@@ -1,4 +1,3 @@
-import allure
 import pytest
 
 from src.constants.api_constants import APIConstants
