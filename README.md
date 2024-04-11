@@ -42,14 +42,13 @@ Hybrid Custom Framework to Test the REST APIs
 ```pip install jsonschema```
 
 How to run via Jenkins(CI/CD)
-![img.png](img.png)Screenshot 2024-04-08 at 7 55 21 AM
 
-Jenkins Run Process
-Install the Jenkins - jenkins dowload
-Install the JDK (open JDK)
-https://jdk.java.net/21/
-Set it into the Global Config - http://localhost:8080/manage/configureTools/
-Install the Plugins - http://localhost:8080/manage/pluginManager/
+1. Jenkins Run Process
+2. Install the Jenkins - jenkins dowload
+3. Install the JDK (open JDK)
+4. https://jdk.java.net/21/
+5. Set it into the Global Config - http://localhost:8080/manage/configureTools/
+6. Install the Plugins - http://localhost:8080/manage/pluginManager/
 Allure
 HTML Report
-GITHUB - Repo - https://github.com/PramodDutta/Py2xAPIAutomationFramework.git
+7. GITHUB - Repo - https://github.com/PramodDutta/Py2xAPIAutomationFramework.git
