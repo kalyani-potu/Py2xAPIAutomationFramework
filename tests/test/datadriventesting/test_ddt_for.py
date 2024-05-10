@@ -37,7 +37,7 @@ def test_create_auth_with_excel():
         file_path ="C:\All\Python_Automation\Py2xAPIAutomationFramework\\tests\\test\datadriventesting\\testdata_ddt_123.xlsx"
         credentials = read_credentials_from_excel(file_path=file_path)
         print(credentials)
-        #Using for loop to send requests with all the data from the excel sheet
+        #Using for loop to send requests with all the data(each row) from the excel sheet
         for user_cred in credentials:
             username = user_cred["username"]
             password = user_cred["password"]
