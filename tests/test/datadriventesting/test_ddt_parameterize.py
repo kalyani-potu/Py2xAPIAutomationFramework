@@ -28,7 +28,8 @@ def create_auth_request(username, password):
             in_json=False
         )
         return response
-
+#instead of for loop to read each row from excel sheet, we use parametrize to all data(each row)
+#Parameterizing of a test is done to run the test against multiple sets of inputs.
 @pytest.mark.parametrize("user_cred", read_credentials_from_excel("C:\All\Python_Automation\Py2xAPIAutomationFramework\\tests\\test\datadriventesting\\testdata_ddt_123.xlsx"))
 def test_create_auth_with_excel(user_cred):
     username = user_cred["username"]
